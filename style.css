@@ -5,6 +5,7 @@ body{
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 20px;
 	background-size: 1350px;
+	background-attachment: fixed;
 	font-weight: 500;
 }
 
@@ -30,10 +31,10 @@ a{
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
-	transition: : 0.3s;
 }
 a:hover {
 	color: rgb(0,0,0);
+	transition: 0.3s;
 }
 
 /* Custom Design with Class (99%)*/
@@ -75,7 +76,12 @@ a:hover {
 	font-size: 50px;
 }
 .list-inline i:hover {
-	color: lack;
+	color: black;
+}
+.audio-cover{
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
 }
 
 /* Custom Design with ID (01%)*/
